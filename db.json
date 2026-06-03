@@ -1,0 +1,188 @@
+{
+  "employes": [
+    {
+      "id": "1",
+      "firstname": "Alice",
+      "lastname": "Martin",
+      "prenom": "Alice",
+      "nom": "Martin",
+      "email": "alice@company.com",
+      "department": "Informatique",
+      "departement": "Informatique",
+      "salary": 2800,
+      "salaire": 2800,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "2",
+      "firstname": "Bob",
+      "lastname": "Dupont",
+      "prenom": "Bob",
+      "nom": "Dupont",
+      "email": "bob@company.com",
+      "department": "Marketing",
+      "departement": "Marketing",
+      "salary": 2500,
+      "salaire": 2500,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "3",
+      "firstname": "Clara",
+      "lastname": "Nguyen",
+      "prenom": "Clara",
+      "nom": "Nguyen",
+      "email": "clara@company.com",
+      "department": "RH",
+      "departement": "RH",
+      "salary": 2600,
+      "salaire": 2600,
+      "active": false,
+      "actif": false
+    },
+    {
+      "id": "uKNDK3d",
+      "firstname": "Nomena Harilala",
+      "lastname": "ANDRANJOHANNTSEHENO",
+      "prenom": "Nomena Harilala",
+      "nom": "ANDRANJOHANNTSEHENO",
+      "email": "hei.nomena.4@gmail.com",
+      "department": "Informatique",
+      "departement": "Informatique",
+      "salary": 10000000,
+      "salaire": 10000000,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "MmynA36",
+      "firstname": "George",
+      "lastname": "ANDRIAMANATENA",
+      "prenom": "George",
+      "nom": "ANDRIAMANATENA",
+      "email": "andriamanantena@gmail.com",
+      "department": "Finance",
+      "departement": "Finance",
+      "salary": 600000,
+      "salaire": 600000,
+      "active": true,
+      "actif": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "firstname": "Alice",
+      "lastname": "Martin",
+      "prenom": "Alice",
+      "nom": "Martin",
+      "email": "alice@company.com",
+      "department": "Informatique",
+      "departement": "Informatique",
+      "salary": 2800,
+      "salaire": 2800,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "2",
+      "firstname": "Bob",
+      "lastname": "Dupont",
+      "prenom": "Bob",
+      "nom": "Dupont",
+      "email": "bob@company.com",
+      "department": "Marketing",
+      "departement": "Marketing",
+      "salary": 2500,
+      "salaire": 2500,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "3",
+      "firstname": "Clara",
+      "lastname": "Nguyen",
+      "prenom": "Clara",
+      "nom": "Nguyen",
+      "email": "clara@company.com",
+      "department": "RH",
+      "departement": "RH",
+      "salary": 2600,
+      "salaire": 2600,
+      "active": false,
+      "actif": false
+    },
+    {
+      "id": "uKNDK3d",
+      "firstname": "Nomena Harilala",
+      "lastname": "ANDRANJOHANNTSEHENO",
+      "prenom": "Nomena Harilala",
+      "nom": "ANDRANJOHANNTSEHENO",
+      "email": "hei.nomena.4@gmail.com",
+      "department": "Informatique",
+      "departement": "Informatique",
+      "salary": 10000000,
+      "salaire": 10000000,
+      "active": true,
+      "actif": true
+    },
+    {
+      "id": "MmynA36",
+      "firstname": "George",
+      "lastname": "ANDRIAMANATENA",
+      "prenom": "George",
+      "nom": "ANDRIAMANATENA",
+      "email": "andriamanantena@gmail.com",
+      "department": "Finance",
+      "departement": "Finance",
+      "salary": 600000,
+      "salaire": 600000,
+      "active": true,
+      "actif": true
+    }
+  ],
+  "interns": [
+    {
+      "id": "int1",
+      "firstname": "Leo",
+      "lastname": "Dubois",
+      "email": "leo@company.com",
+      "department": "Informatique",
+      "managerId": "1"
+    },
+    {
+      "id": "int2",
+      "firstname": "Emma",
+      "lastname": "Leroy",
+      "email": "emma@company.com",
+      "department": "Marketing",
+      "managerId": "2"
+    },
+    {
+      "id": "int3",
+      "firstname": "Lucas",
+      "lastname": "Petit",
+      "email": "lucas@company.com",
+      "department": "Informatique",
+      "managerId": "uKNDK3d"
+    },
+    {
+      "id": "int4",
+      "firstname": "Chloé",
+      "lastname": "Rousseau",
+      "email": "chloe@company.com",
+      "department": "Finance",
+      "managerId": "MmynA36"
+    },
+    {
+      "id": "int5",
+      "firstname": "Hugo",
+      "lastname": "Blanc",
+      "email": "hugo@company.com",
+      "department": "Informatique",
+      "managerId": "1"
+    }
+  ]
+}
