@@ -26,15 +26,20 @@ export const EmployeeTitle = () => {
   ) : null;
 };
 
-const validateEmployeeDeactivation = async (values: any) => {
-  const errors: any = {};
+interface EmployeeRecord {
+  id?: string;
+  active?: boolean;
+}
+
+const validateEmployeeDeactivation = async (values: EmployeeRecord) => {
+  const errors: Record<string, string> = {};
   if (values.active === false && values.id) {
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_JSON_SERVER_URL || "http://localhost:3002"}/interns?managerId=${values.id}`
+        `${import.meta.env.VITE_JSON_SERVER_URL || "http://localhost:3002"}/interns?managerId=${values.id}`,
       );
       const interns = await response.json();
-      if (interns && interns.length > 0) {
+      if (Array.isArray(interns) && interns.length > 0) {
         errors.active =
           "Cet employé est le manager de stagiaires actifs et ne peut pas être désactivé.";
       }

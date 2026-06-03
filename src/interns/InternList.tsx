@@ -11,8 +11,9 @@ import {
 } from "react-admin";
 
 const internFilters = [
-  <SearchInput source="q" alwaysOn />,
+  <SearchInput key="q" source="q" alwaysOn />,
   <SelectInput
+    key="department"
     source="department"
     label="Département"
     choices={[
@@ -32,7 +33,11 @@ export const InternList = () => (
       <TextField source="email" label="Email" />
       <TextField source="department" label="Département" />
       <ReferenceField source="managerId" reference="employees" label="Manager">
-        <FunctionField render={(record) => record ? `${record.firstname} ${record.lastname}` : ""} />
+        <FunctionField
+          render={(record) =>
+            record ? `${record.firstname} ${record.lastname}` : ""
+          }
+        />
       </ReferenceField>
       <EditButton />
       <DeleteButton />

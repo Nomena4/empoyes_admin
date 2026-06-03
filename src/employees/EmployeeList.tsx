@@ -11,8 +11,9 @@ import {
 } from "react-admin";
 
 const employeeFilters = [
-  <SearchInput source="q" alwaysOn />,
+  <SearchInput key="q" source="q" alwaysOn />,
   <SelectInput
+    key="department"
     source="department"
     label="Département"
     choices={[
